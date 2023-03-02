@@ -1,0 +1,23 @@
+.logocont {
+    background-color: rgb(8, 7, 7);
+    width: 100% vh;
+    height: 2% ;
+    
+}
+
+.logoAP {
+    height: 100x;
+    width: 150px;
+    margin: 20px;
+}
+
+#yoprog {
+    display: flex;
+    align-items: center;
+    min-height: 115px;
+}
+
+#yoprog p {
+    color: #fff;
+    margin: 20px;
+}
