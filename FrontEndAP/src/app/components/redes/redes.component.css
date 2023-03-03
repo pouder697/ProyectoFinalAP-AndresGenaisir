@@ -1,0 +1,12 @@
+#red {
+    width: 45px;
+    margin: 5px;
+    padding: 4px;
+}
+
+.redes{
+    display: flex;
+    float:right;
+    align-items: center;
+    min-height: 115px;
+}

@@ -1,12 +1,19 @@
-.logocont {
+.navbarcont{
     background-color: rgb(8, 7, 7);
     width: 100% vh;
-    height: 2% ;
+    height: auto;
+    display: flex;
+
+}
+
+.logocont {
+    width: 100px;
+    height: 150px;
     
 }
 
 .logoAP {
-    height: 100x;
+    height: 100px;
     width: 150px;
     margin: 20px;
 }
@@ -20,4 +27,15 @@
 #yoprog p {
     color: #fff;
     margin: 20px;
+    
 }
+
+.redescont{
+    margin-top: 10px;
+    float: right;
+}
+
+app-redes{
+    background-color: blue;
+}
+
