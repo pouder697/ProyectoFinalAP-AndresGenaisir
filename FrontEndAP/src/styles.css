@@ -15,3 +15,9 @@
 body{
     background-color: #fff;
 }
+
+.recycle{
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
