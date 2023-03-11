@@ -102,7 +102,6 @@
       }
     }
   },
-  "defaultProject": "FrontEndAP",
   "cli": {
     "analytics": false
   }

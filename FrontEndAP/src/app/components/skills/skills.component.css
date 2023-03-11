@@ -1,0 +1,15 @@
+.skills{
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+}
+
+.skills__circle{
+    margin: 15px;
+
+}
+
+.circles__container{
+    align-items: center;
+    justify-content: center;
+}
