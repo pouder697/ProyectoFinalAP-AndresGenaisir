@@ -8,6 +8,10 @@ import { RedesComponent } from './components/redes/redes.component';
 import { AboutComponent } from './components/about/about.component';
 import { WorkexperienceComponent } from './components/workexperience/workexperience.component';
 import { EducationComponent } from './components/education/education.component';
+import { SkillsComponent } from './components/skills/skills.component';
+
+import { NgCircleProgressModule } from 'ng-circle-progress';
+
 
 @NgModule({
   declarations: [
@@ -16,11 +20,14 @@ import { EducationComponent } from './components/education/education.component';
     RedesComponent,
     AboutComponent,
     WorkexperienceComponent,
-    EducationComponent
+    EducationComponent,
+    SkillsComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgCircleProgressModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

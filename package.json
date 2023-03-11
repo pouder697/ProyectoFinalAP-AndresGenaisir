@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "ng-circle-progress": "^1.7.1",
+    "ngx-print": "^1.2.1"
+  }
+}
