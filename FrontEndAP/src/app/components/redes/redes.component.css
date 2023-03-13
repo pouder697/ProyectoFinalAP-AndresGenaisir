@@ -10,3 +10,9 @@
     align-items: center;
     min-height: 115px;
 }
+
+a > img:hover{
+    background-color: rgb(86, 86, 116);
+    border-radius: 25px;
+    transition: 0.3s;
+}

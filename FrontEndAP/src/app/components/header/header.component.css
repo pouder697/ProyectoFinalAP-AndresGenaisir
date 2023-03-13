@@ -6,7 +6,6 @@ header{
     flex-flow: row wrap;
     align-items: center;
     justify-content: space-between;
-    padding: 1em;
 }
 
 .header__container{
@@ -58,8 +57,9 @@ header{
 }
 
 .header ul li a:hover{
-    background-color: #fefefe;
-    color: #000;
+    background-color: rgba(86, 86, 116, 0.555);
+    color: #fefefe;
+    transition: 0.3s;
 }
 
 .header ul li a.selected{

@@ -1,20 +1,24 @@
+#APlogo{
+    align-self: center;
+}
+
+.nav{
+    justify-content: space-around;
+}
+
 .column {
-    margin: 50px 70px 50px 5px;
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
+    margin: 50px 70px 40px 5px;
 }
 
 .column img {
-    width: 125´px;
-    height: 75px;
+    width: 85px;
+    height: 50px;
     background-color: #00A0DC;
     border-radius: 25px;
 }
 
 .redes {
     display: flex;
-    align-self: center;
     align-items: center;
     background-color: #00A0DC;
     border-radius: 25px;
@@ -22,17 +26,23 @@
     margin-left: 30px;
 }
 
+a > img:hover{
+    background-color: rgb(86, 86, 116);
+    transition: 0.3s;
+}
+
+
 footer{
     color:#333333;
     font-size: 12px;
     font-weight: bold;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    text-align: center;
     
 }
 
 footer p {
-    margin: 30px 0 0;
-    padding: 15;
+    margin: 0 10px;
+    padding: 2px;
 }
